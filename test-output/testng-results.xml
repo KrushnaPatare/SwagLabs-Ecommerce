@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-06T02:12:39 IST" name="Default suite" finished-at="2024-08-06T02:13:28 IST" duration-ms="49065">
+    <groups>
+    </groups>
+    <test started-at="2024-08-06T02:12:39 IST" name="Default test" finished-at="2024-08-06T02:13:28 IST" duration-ms="49065">
+      <class name="testCase.SwagLabs2InventoryPageTest">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:testCase.SwagLabs2InventoryPageTest@6b927fb]" started-at="2024-08-06T02:12:39 IST" name="Setup" finished-at="2024-08-06T02:12:47 IST" duration-ms="7926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyUserIsAbleToNavigateToSocialMediaSites()[pri:2, instance:testCase.SwagLabs2InventoryPageTest@6b927fb]" started-at="2024-08-06T02:12:47 IST" name="verifyUserIsAbleToNavigateToSocialMediaSites" finished-at="2024-08-06T02:13:28 IST" duration-ms="40613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToNavigateToSocialMediaSites -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCase.SwagLabs2InventoryPageTest@6b927fb]" started-at="2024-08-06T02:13:28 IST" name="closeBrowser" finished-at="2024-08-06T02:13:28 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToNavigateToSocialMediaSites status=SUCCESS method=SwagLabs2InventoryPageTest.verifyUserIsAbleToNavigateToSocialMediaSites()[pri:2, instance:testCase.SwagLabs2InventoryPageTest@6b927fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCase.SwagLabs2InventoryPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
