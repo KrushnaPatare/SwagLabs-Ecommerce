@@ -64,18 +64,7 @@ public class SwagLabs3ProductPageTest extends BaseClass {
 	@Test(priority = 3)
 	public void clickProduct_ProductBanner$Description$Price_Checked() throws InterruptedException {
 
-		SwagLabsProductpage swagLabsProductpage = new SwagLabsProductpage(driver);
-		swagLabsProductpage.clickProductBanner();
-		String actualDescription = swagLabsProductpage.getProductDescription();
-		String expectedDescription = "Sauce Labs Backpack\n"
-				+ "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.\n"
-				+ "$29.99\n" + "Add to cart";
-
-		System.out.println("expectedDescription = " + expectedDescription);
-		System.out.println("actualDescription = " + actualDescription);
-		Assert.assertEquals(expectedDescription, actualDescription);
-		Thread.sleep(100);
-	}
+		ddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 
 	@Test(priority = 4)
 	public void clickProduct_AddProductButton_AddedToCart() throws InterruptedException {
