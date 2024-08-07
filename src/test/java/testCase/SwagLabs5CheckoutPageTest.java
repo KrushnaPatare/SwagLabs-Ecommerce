@@ -263,16 +263,8 @@ public class SwagLabs5CheckoutPageTest extends BaseClass {
 	public void clickCheckout_1FillFirstN2EmptyLastN3FillZipcode_DisplayedWarningMSG()
 			throws EncryptedDocumentException, IOException, InterruptedException {
 
-		SwagLabCheckoutStepOnePage swagLabCheckoutStepOnePage = new SwagLabCheckoutStepOnePage(driver);
-		String fName = Parameterization.getExelData("checkout", 0, 0);
-		String pCode = Parameterization.getExelData("checkout", 2, 0);
-		swagLabCheckoutStepOnePage.enterFirstname(fName);
-		swagLabCheckoutStepOnePage.enterPincode(pCode);
-		swagLabCheckoutStepOnePage.clickContinueButton();
-		String actualMessage = swagLabCheckoutStepOnePage.getErrorMSG();
-		String expectedMessage = "Error: Last Name is required";
-		System.out.println("expectedMessage = " + expectedMessage);
-		System.out.println("actualMessage = " + actualMessage);
+		kjtrxcb';iuytfvb'iuyg 
+		'poiuygb/';lkjhbessage);
 		Assert.assertEquals(expectedMessage, actualMessage);
 		Thread.sleep(100);
 	}
